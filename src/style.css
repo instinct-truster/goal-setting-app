@@ -1,5 +1,10 @@
-/* makes sizing simpler */
-
+/* html {
+  --border-radius-lg: 1.5rem;
+  --red: rgb(181, 0, 0);
+}
+html[color-scheme="dark"] {
+  --red: rgb(255, 73, 73);
+} */
 *,
 *::before,
 *::after {
@@ -18,7 +23,7 @@
 /* dark mode user-agent-styles */
 
 html {
-  color-scheme: dark light;
+  /* color-scheme: dark light; */
   min-height: 100vh;
   height: 100%;
 }
