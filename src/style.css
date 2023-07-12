@@ -19,12 +19,15 @@
 
 html {
   color-scheme: dark light;
+  min-height: 100vh;
+  height: 100%;
 }
 
 /* min body height */
 
 body {
   min-height: 100vh;
+  height: 100%;
 }
 
 /* responsive images/videos */
@@ -39,7 +42,7 @@ video {
 /* lay the boxes out clearly */
 * {
   box-sizing: border-box;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   max-width: 100%;
 }
 
@@ -51,4 +54,8 @@ video {
   );
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
+  height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }

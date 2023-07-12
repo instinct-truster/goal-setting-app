@@ -5,7 +5,7 @@
       Create and take the steps required to SEIZE THIS DAY!
     </p>
     <input type="text" />
-    <button>+ Add<Address></Address></button>
+    <button>+ Add</button>
   </main>
 </template>
 
